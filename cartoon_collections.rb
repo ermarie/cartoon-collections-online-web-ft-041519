@@ -7,8 +7,13 @@ def roll_call_dwarves(dwarves)# code an argument here
   end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(planeteer_calls)# code an argument here
   # Your code here
+  i = 0
+  while i < planeteer_calls.length
+    planeteer_calls.map { |calls| calls.capitalize }
+    planeteer_calls
+  end
 end
 
 def long_planeteer_calls# code an argument here
