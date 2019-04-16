@@ -14,11 +14,11 @@ def summon_captain_planet(planeteer_calls)# code an argument here
   final_calls = []
   while i < planeteer_calls.length
     new_calls << planeteer_calls[i].map { |calls| calls.capitalize }
-    final_calls[i].map { |calls| calls + "!"}
+    final_calls << new_calls[i].map { |calls| calls + "!"}
   #  new_calls << planeteer_calls[i]
     i += 1
   end
-  planeteer_calls
+  final_calls
 end
 
 def long_planeteer_calls# code an argument here
