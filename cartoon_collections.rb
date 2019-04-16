@@ -22,9 +22,10 @@ def find_the_cheese(strings)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   i = 0
+  cheese_arr = []
   while i < strings.length
     if strings.include? strings[i]
-
+      cheese_arr << i
     end
     i += 1
   end
