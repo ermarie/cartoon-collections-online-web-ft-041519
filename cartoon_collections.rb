@@ -15,6 +15,7 @@ def summon_captain_planet(planeteer_calls)# code an argument here
     planeteer_calls.map { |calls| calls + "!"}
     i += 1
   end
+  planeteer_calls
 end
 
 def long_planeteer_calls# code an argument here
