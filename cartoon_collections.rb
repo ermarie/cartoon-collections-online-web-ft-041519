@@ -14,7 +14,7 @@ def summon_captain_planet(planeteer_calls)# code an argument here
   final_calls = []
   while i < planeteer_calls.length
     planeteer_calls.map! { |calls| calls.capitalize + "!" }
-    planeteer_calls.map! { |calls| calls + "!"}
+  #  planeteer_calls.map! { |calls| calls + "!"}
     i += 1
   end
   planeteer_calls
