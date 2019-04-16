@@ -37,8 +37,8 @@ def find_the_cheese(strings)# code an argument here
   if cheese_arr.all?(100)
     nil
   else
-  puts cheese_arr.min
-  puts strings[cheese_arr.min]
+  puts "min: #{cheese_arr.min}"
+  puts "final string: #{strings[cheese_arr.min]}"
   strings[cheese_arr.min]
   end
 end
