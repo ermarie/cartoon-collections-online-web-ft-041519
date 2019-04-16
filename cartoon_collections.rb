@@ -29,4 +29,5 @@ def find_the_cheese(strings)# code an argument here
     end
     i += 1
   end
+  puts strings[cheese_arr.min]
 end
