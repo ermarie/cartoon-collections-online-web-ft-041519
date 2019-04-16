@@ -12,7 +12,7 @@ def summon_captain_planet(planeteer_calls)# code an argument here
   i = 0
   while i < planeteer_calls.length
     planeteer_calls.map { |calls| calls.capitalize }
-    planeteer_calls.map { |calls| calls"!"}
+    planeteer_calls.map { |calls| calls + "!"}
   end
 end
 
