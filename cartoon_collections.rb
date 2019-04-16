@@ -29,7 +29,7 @@ def find_the_cheese(strings)# code an argument here
     end
     else
       cheese_arr << i
-      
+
     end
     i += 1
   end
