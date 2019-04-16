@@ -25,13 +25,13 @@ def find_the_cheese(strings)# code an argument here
   cheese_arr = []
   while i < strings.length
     if strings.include?(cheese_types[i]) == false
-      cheese_arr << 0
+      cheese_arr << 100
     else
       cheese_arr << i
     end
     i += 1
   end
-  if cheese_arr.all?(0)
+  if cheese_arr.all?(100)
     nil
   else
   strings[cheese_arr.min]
