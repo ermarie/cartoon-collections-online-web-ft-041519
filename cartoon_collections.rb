@@ -27,6 +27,7 @@ def find_the_cheese(strings)# code an argument here
   while i < strings.length
     if strings.include?(cheese_types[i])
       puts "i: #{i}"
+      puts "string[i]: #{strings[i]}"
       puts "type: #{cheese_types[i]}"
       cheese_arr << i
       puts "if: #{cheese_arr}"
