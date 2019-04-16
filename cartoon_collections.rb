@@ -25,7 +25,7 @@ def find_the_cheese(strings)# code an argument here
   cheese_arr = []
   while i < strings.length
     if strings.include?(cheese_types[i]) = false
-      nil
+      cheese_arr << nil
     end
     else
       cheese_arr << i
