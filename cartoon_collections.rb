@@ -24,8 +24,12 @@ def find_the_cheese(strings)# code an argument here
   i = 0
   cheese_arr = []
   while i < strings.length
-    if strings.include?(cheese_types[i])
+    if strings.include?(cheese_types[i]) = false
+      nil
+    end
+    else
       cheese_arr << i
+      
     end
     i += 1
   end
