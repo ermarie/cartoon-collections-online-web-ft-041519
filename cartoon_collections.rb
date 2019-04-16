@@ -27,10 +27,10 @@ def find_the_cheese(strings)# code an argument here
   while i < strings.length
     if strings.include?(cheese_types[i])
       cheese_arr << i
-      puts "else: #{cheese_arr}"
+      puts "if: #{cheese_arr}"
     else
       cheese_arr << 100
-      puts "if: #{cheese_arr}"
+      puts "else: #{cheese_arr}"
     end
     i += 1
   end
