@@ -15,10 +15,11 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
+  calls.any? {}
   i = 0
   while i < calls.length
-
-      i += 1
+    
+    i += 1
   end
 end
 
