@@ -15,6 +15,11 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
+  i = 0
+  while i < calls.length
+
+      i += 1
+  end
 end
 
 def find_the_cheese# code an argument here
