@@ -10,9 +10,11 @@ end
 def summon_captain_planet(planeteer_calls)# code an argument here
   # Your code here
   i = 0
+  new_calls = []
   while i < planeteer_calls.length
-    planeteer_calls.map { |calls| calls.capitalize }
-    planeteer_calls.map { |calls| calls + "!"}
+    planeteer_calls[i].map { |calls| calls.capitalize }
+    planeteer_calls[i].map { |calls| calls + "!"}
+    new_calls << planeteer_calls[i]
     i += 1
   end
   planeteer_calls
